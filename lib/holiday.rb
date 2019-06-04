@@ -67,7 +67,7 @@ def all_supplies_in_holidays(holiday_hash)
       end
       holiday = holiday_list.join(" ")
       supplies = supplies.join(", ")
-      puts " #{holiday}: #{supply}"
+      puts " #{holiday}: #{supplies}"
 end
 end
   # iterate through holiday_hash and print items such that your readout resembles:
